@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body{
+  @apply text-slate-600 
+}
+.btn{
+  @apply text-white p-3 rounded-md block mx-1
+}
+.btn-danger{
+@apply bg-red-600
+}
+.btn-success{
+  @apply bg-green-500
+}
